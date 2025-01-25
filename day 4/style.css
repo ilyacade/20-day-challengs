@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.header .logo{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+
+}
+.header .nav{
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.header .nav ul{
+    list-style: none;
+} 
+.header .nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block;
+    
+}
+.header .nav ul li.hidden{
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.header .nav:hover ul li.hidden{
+    display: block;
+    opacity: 1;
+}
+.header .register{
+    margin-right: 30px;
+}
+.header .register a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.header .register a:nth-child(2){
+    border: 2px solid black;
+    padding: 5px 9px;
+    border-radius: 6px;
+}

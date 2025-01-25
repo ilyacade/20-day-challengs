@@ -7,8 +7,8 @@
 body{
     height: 100vh;
     scroll-behavior: smooth;
-    /* background:linear-gradient(to right ,darkblue,aqua, purple,black ); */
-    background-color: aqua;
+    background:linear-gradient(to right ,darkblue,aqua, purple,black );
+    /* background-color: aqua; */
 
 
     

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* h2{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        margin: 400px auto ;
+        font-size: 4.4em;
+        text-shadow: 3px 3px 0px aqua;
+        animation-name: ScaleIn;
+        animation-duration: 5s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 3;
+        animation-direction:alternate;
+    } */
+    /* @keyframes ScaleIn {
+        0% {transform: scale(0.5);}
+        30%{transform: translateX(700%);}
+        85%{transform: scale(1.1);}
+        100%{transform: scale(1);}
+    } */
+     h1{
+        font-size: 2em;
+        text-align: center;
+        /* letter-spacing: 2px; */
+        /* white-space: nowrap; */
+        overflow: hidden;
+        border-right: 4px solid #CE2D4f 
+        ;
+        width: 80%;
+        animation: typing 3s steps(14) , blinking 0.5s steps(1)  infinite;
+        
+        
+     }
+    /* .blink{
+        width: 4px;
+        height: 25px;
+        background-color: #CE2D4f;
+        position: relative;
+        left: 32%;
+        top: 54px;
+        
+    } */
+     @keyframes typing {
+        0%{
+            width: 0px;
+        }
+        100%{
+            width: 100%;
+        }
+     }
+     @keyframes blinking {
+        0% , 100%{
+            border-color:transparent;
+        }
+        50%{
+            border-color:#CE2D4f;
+        }
+     }
+</style>
+<body>
+    <!-- <h2>
+        Hello
+    </h2> -->
+    <!-- <div class="blink"></div> -->
+    <h1>
+        Typining is fun!
+    </h1>
+</body>
+</html>
